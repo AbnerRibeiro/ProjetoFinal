@@ -1,7 +1,28 @@
-body{ 
+body { 
 	background-color: blue;
 }
 
-.facetam {
-	width: 10px;
+.vertical-img {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+
+
+
+/* para tirar o padding da img de fundo que ficava dentro da row/col na tela do site total */
+#fundoimg {
+	padding: 0;
+}
+
+/* para por as infos em cima da imagem */
+#infos{
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
+
+/* para alterar a cor de fundo e a cor do texto do botao de agendamento */
+#botaoagendar {
+	background-color: blue;
+	color: white;
 }
