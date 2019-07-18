@@ -1,13 +1,11 @@
 body { 
-	background-color: blue;
+	background-color: #c2d1f7;
 }
 
-.vertical-img {
-	transform: rotate(90deg);
-	transform-origin: left top 0;
+#img-renata {
+	width: 500px;
+	height: 300px;
 }
-
-
 
 /* para tirar o padding da img de fundo que ficava dentro da row/col na tela do site total */
 #fundoimg {
@@ -25,4 +23,24 @@ body {
 #botaoagendar {
 	background-color: blue;
 	color: white;
+}
+
+
+/* para por o menu do cabeçalho mais pra direita e mais para a esquerda */
+.marginheader {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.bg-footer {
+	background-color: #1e3f92;
+}
+
+.bg-gradient {
+	background: linear-gradient(55deg, #c2d1f7, #3c5597);
+}
+
+#preventiva {
+	padding: 60px;
+
 }
